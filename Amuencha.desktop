@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Amuencha
+GenericName=Amuencha
+Comment=Musical Analyzer and singing training
+Comment[fr]=Analyseur Musical et Entrainement au Chant
+Exec=amuencha
+Icon=amuencha
+Terminal=false
+Type=Application
+Categories=Audio;AudioVideo;Player;
+Keywords=audio;sound;visualiser;player;jackd
+Version=1.0
