@@ -35,7 +35,7 @@
 
 #include <rtaudio/RtAudio.h>
 
-#include "frequency_analyzer.h"
+#include "model/frequency_analyzer.h"
 
 struct MyRtAudio : public RtAudio {
     using RtAudio::RtAudio;

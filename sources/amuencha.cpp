@@ -19,7 +19,7 @@
   See http://nicolas.brodu.net/programmation/amuencha/ for more information
 */
 
-#include "mainwindow.h"
+#include "interface/mainwindow.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])

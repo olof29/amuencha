@@ -11,20 +11,21 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = amuencha
 TEMPLATE = app
 
+INCLUDEPATH += $$PWD/sources
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    spiraldisplay.cpp \
-    frequency_analyzer.cpp \
-    clickableslider.cpp
+SOURCES += sources/amuencha.cpp \
+    sources/model/frequency_analyzer.cpp \
+    sources/visual/spiraldisplay.cpp \
+    sources/visual/clickableslider.cpp \
+    sources/interface/mainwindow.cpp
 
-HEADERS  += mainwindow.h \
-    spiraldisplay.h \
-    frequency_analyzer.h \
-    sse_mathfun.h \
-    clickableslider.h
+HEADERS  += sources/model/frequency_analyzer.h \
+    sources/model/sse_mathfun.h \
+    sources/visual/spiraldisplay.h \
+    sources/visual/clickableslider.h \
+    sources/interface/mainwindow.h
 
-FORMS    += mainwindow.ui
+FORMS    += sources/interface/mainwindow.ui
 
 CONFIG += c++11
 
