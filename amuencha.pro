@@ -12,18 +12,21 @@ TARGET = amuencha
 TEMPLATE = app
 
 INCLUDEPATH += $$PWD/sources
+INCLUDEPATH += $$PWD/libraries
 
 SOURCES += sources/amuencha.cpp \
     sources/model/frequency_analyzer.cpp \
     sources/visual/spiraldisplay.cpp \
     sources/visual/clickableslider.cpp \
-    sources/interface/mainwindow.cpp
+    sources/interface/mainwindow.cpp \
+    libraries/ring_buffer.cpp
 
 HEADERS  += sources/model/frequency_analyzer.h \
     sources/model/sse_mathfun.h \
     sources/visual/spiraldisplay.h \
     sources/visual/clickableslider.h \
-    sources/interface/mainwindow.h
+    sources/interface/mainwindow.h \
+    libraries/ring_buffer.h
 
 FORMS    += sources/interface/mainwindow.ui
 

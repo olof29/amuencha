@@ -148,6 +148,9 @@ Note : possible de faire tous ces calculs de temps au chargement de la chanson, 
 // at the real speed, but that is set by the duplex line. => maybe need some extra codec thread?
 
 
+// buffer of midi output messages
+Ring_Buffer *theMidiOutBuffer = NULL;
+
 static MainWindow* main_window = 0;
 
 MainWindow::MainWindow(QWidget *parent) :

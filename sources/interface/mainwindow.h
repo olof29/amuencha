@@ -33,6 +33,9 @@
 #include <QMutex>
 #include <QPushButton>
 
+// midi related
+#include <ring_buffer.h>
+
 #include <rtaudio/RtAudio.h>
 
 #include "model/frequency_analyzer.h"
